@@ -303,15 +303,15 @@ function togglePanel(e) {
     // return false;
 }
 
-$(function() {
-    $('<div id="left-panel-wrapper" class="dontprint"><div id="left-panel-contents" style="opacity: 0.9"></div><div id="left-panel-button" class="dontprint"><a href="#">Dashboard</a></div></div>')
-        .appendTo('body');
+// $(function() {
+//     $('<div id="left-panel-wrapper" class="dontprint"><div id="left-panel-contents" style="opacity: 0.9"></div><div id="left-panel-button" class="dontprint"><a href="#">Dashboard</a></div></div>')
+//         .appendTo('body');
 
-    $('<div id="right-panel-wrapper" class="dontprint"><div id="right-panel-contents" style="opacity: 0.9"></div></div>')
-        .appendTo('body');
+//     $('<div id="right-panel-wrapper" class="dontprint"><div id="right-panel-contents" style="opacity: 0.9"></div></div>')
+//         .appendTo('body');
 
-    $('#left-panel-button').click(togglePanel);
-});
+//     $('#left-panel-button').click(togglePanel);
+// });
 
 $(function() {
     var ul = $('<ul id="listOfTodo"></ul>').appendTo('#left-panel-contents');
